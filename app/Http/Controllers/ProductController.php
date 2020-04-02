@@ -42,6 +42,4 @@ class ProductController extends Controller
     {
         return "Excluindo o produto: {$id}";
     }
-
-
 }
