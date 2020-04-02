@@ -1,5 +1,8 @@
 <?php
 
+
+Route::resource('products', 'ProductController');
+
 /* Modelo não simplifacado que não usa as melhores práticas do laravel
 
 Route::delete('products/{id}', 'ProductController@destroy')->name('products.destroy');
