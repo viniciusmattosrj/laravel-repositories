@@ -27,5 +27,21 @@ class ProductController extends Controller
     {
         return "Form para editar o produto: {$id}";
     }
+
+    public function store()
+    {
+        return "Cadastrando um novo produto";
+    }
     
+    public function update($id)
+    {
+        return "Editando o produto: {$id}";
+    }
+
+    public function destroy($id)
+    {
+        return "Excluindo o produto: {$id}";
+    }
+
+
 }
